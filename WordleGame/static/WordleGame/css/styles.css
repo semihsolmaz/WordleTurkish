@@ -1,0 +1,26 @@
+form li {
+    list-style-type: none;
+}
+
+form ul {
+    padding: 0;
+}
+
+.letterbox {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 3px;
+    text-align: center;
+    font-size:36px;
+    font-weight: bold;
+}
+
+#boardcontainer {
+    text-align: center;
+}
+
+#playButton {
+    padding: 10px 50px 10px 50px;
+}

@@ -53,6 +53,63 @@
     </nav>
 </header>
 <h1>hello love, piggy piggy</h1>
+<div class="container">
+    <div class="row mb-3">
+        <div id="gamehelp" class="col-xl-3 themed-grid-col">.col-xl-4</div>
+        <div id="boardcontainer" class="col-xl-6 themed-grid-col">
+            <form class="gameForm" method="post">
+                {% csrf_token %}
+                <ul>
+                    <li>
+                        <input class="letterbox" type="text" maxlength="1" name="c11">
+                        <input class="letterbox" type="text" maxlength="1" name="c12">
+                        <input class="letterbox" type="text" maxlength="1" name="c13">
+                        <input class="letterbox" type="text" maxlength="1" name="c14">
+                        <input class="letterbox" type="text" maxlength="1" name="c15">
+                    </li>
+                    <li>
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                    </li>
+                    <li>
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                    </li>
+                    <li>
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                    </li>
+                    <li>
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                    </li>
+                    <li>
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                        <input class="letterbox" type="text" maxlength="1">
+                    </li>
+                </ul>
+                <input id="playButton" type="submit" class="btn btn-primary" value="Oyna">
+            </form>
+        </div>
+        <div id="stats" class="col-xl-3 themed-grid-col">.col-xl-4</div>
+    </div>
+</div>
+
 <footer class="mastfoot mt-auto text-center py-4">
     <div class="inner">
         <p>Türkçe Wordle oyunu by Semih Solmaz <span class="mt-5 mb-3 text-muted">© 2022</span></p>
