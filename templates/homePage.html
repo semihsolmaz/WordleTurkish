@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Türkçe Wordle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wordle oyununun Türkçe versiyonu">
+    <meta name="author" content="Semih Solmaz">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/grid/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Font Awesome library-->
+    <script src="https://kit.fontawesome.com/f405fd37c0.js" crossorigin="anonymous"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'WordleGame/css/styles.css' %}" rel="stylesheet">
+
 </head>
 <body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Wordle</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Free Play</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Challenge Friends</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Game Stats</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <h1>home hello</h1>
 </body>
 </html>
